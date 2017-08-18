@@ -1,0 +1,19 @@
+# LAB
+.coverData/
+.coverrun
+reports/
+
+# NODE
+node_modules/
+
+# WEBSTORM
+.idea/
+
+# RANDOM
+build/
+debug/
+dist/
+release/
+*.log
+*.logs
+*.zip
