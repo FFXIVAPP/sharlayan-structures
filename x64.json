@@ -1,5 +1,4 @@
 {
-  "Unknown": {},
   "ActorEntity": {
     "Name": 48,
     "ID": 116,
@@ -18,37 +17,37 @@
     "Fate": 228,
     "GatheringInvisible": 260,
     "ModelID": 372,
-    "ActionStatus": 5852,
+    "ActionStatus": 5868,
     "IsGM": 396,
-    "Icon": 5858,
-    "Status": 5864,
+    "Icon": 5874,
+    "Status": 5880,
     "ClaimedByID": 440,
-    "TargetID": 5664,
-    "Job": 5854,
-    "Level": 5856,
-    "GrandCompany": 5869,
-    "GrandCompanyRank": 5870,
-    "Title": 5826,
-    "HPCurrent": 5800,
-    "HPMax": 5804,
-    "MPCurrent": 5808,
-    "MPMax": 5812,
-    "TPCurrent": 5816,
-    "GPCurrent": 5818,
-    "GPMax": 5820,
-    "CPCurrent": 5822,
-    "CPMax": 5824,
-    "CombatFlags": 5892,
-    "DifficultyRank": 5877,
-    "IsCasting1": 6352,
-    "IsCasting2": 6353,
-    "CastingID": 6356,
-    "CastingTargetID": 6368,
-    "CastingProgress": 6404,
-    "CastingTime": 6408,
+    "TargetID": 5680,
+    "Job": 5870,
+    "Level": 5872,
+    "GrandCompany": 5885,
+    "GrandCompanyRank": 5886,
+    "Title": 5842,
+    "HPCurrent": 5816,
+    "HPMax": 5820,
+    "MPCurrent": 5824,
+    "MPMax": 5828,
+    "TPCurrent": 5832,
+    "GPCurrent": 5834,
+    "GPMax": 5836,
+    "CPCurrent": 5838,
+    "CPMax": 5840,
+    "CombatFlags": 5915,
+    "DifficultyRank": 5893,
+    "IsCasting1": 6368,
+    "IsCasting2": 6369,
+    "CastingID": 6372,
+    "CastingTargetID": 6384,
+    "CastingProgress": 6420,
+    "CastingTime": 6424,
     "DefaultBaseOffset": 0,
     "DefaultStatOffset": 0,
-    "DefaultStatusEffectOffset": 5976
+    "DefaultStatusEffectOffset": 5992
   },
   "ActorInfo": {
     "Size": 474
@@ -61,23 +60,29 @@
     "LogNext": 84,
     "LogEnd": 92
   },
+  "EnmityEntry": {
+    "ID": 64,
+    "Name": 0,
+    "Enmity": 68
+  },
+  "HotBarEntity": {
+    "Name": 0,
+    "KeyBinds": 103,
+    "ID": 150
+  },
   "InventoryEntity": {
     "Amount": 8
   },
   "ItemInfo": {
-    "Slot": 4,
     "ID": 8,
+    "Slot": 4,
     "Amount": 12,
     "SB": 16,
     "Durability": 18,
-    "IsHQ": 20,
-    "GlamourID": 48
-  },
-  "PartyInfo": {
-    "Size": 544
+    "GlamourID": 48,
+    "IsHQ": 20
   },
   "PartyEntity": {
-    "DefaultStatusEffectOffset": 128,
     "X": 0,
     "Y": 4,
     "Z": 8,
@@ -88,7 +93,11 @@
     "HPCurrent": 104,
     "HPMax": 108,
     "MPCurrent": 112,
-    "MPMax": 114
+    "MPMax": 114,
+    "DefaultStatusEffectOffset": 128
+  },
+  "PartyInfo": {
+    "Size": 544
   },
   "PlayerEntity": {
     "JobID": 102,
@@ -159,51 +168,30 @@
     "TPMax": 332,
     "GPMax": 336,
     "CPMax": 340,
-    "DirectHit": 372,
-    "AttackPower": 376,
-    "Defense": 380,
-    "Tenacity": 384,
-    "MagicDefense": 392,
-    "CriticalHitRate": 404,
-    "AttackMagicPotency": 428,
-    "HealingMagicPotency": 432,
-    "FireResistance": 444,
-    "IceResistance": 448,
-    "WindResistance": 452,
-    "EarthResistance": 456,
-    "LightningResistance": 460,
-    "WaterResistance": 464,
-    "Determination": 472,
-    "SkillSpeed": 476,
-    "SpellSpeed": 480,
-    "Perception": 588,
-    "Gathering": 584
-  },
-  "TargetInfo": {
-    "SourceSize": 192,
-    "Size": 9200,
-    "HateStructure": 19000,
-    "Current": 0,
-    "MouseOver": 58,
-    "Focus": 160,
-    "Previous": 136,
-    "CurrentID": 192
-  },
-  "StatusEntry": {
-    "StatusID": 0,
-    "Stacks": 2,
-    "Duration": 4,
-    "CasterID": 8
-  },
-  "EnmityEntry": {
-    "Name": 0,
-    "ID": 64,
-    "Enmity": 68
-  },
-  "HotBarEntity": {
-    "Name": 0,
-    "KeyBinds": 103,
-    "ID": 150
+    "DirectHit": 388,
+    "CriticalHitRate": 420,
+    "Determination": 488,
+    "Tenacity": 400,
+    "Defense": 396,
+    "MagicDefense": 408,
+    "AttackPower": 392,
+    "SkillSpeed": 492,
+    "SpellSpeed": 496,
+    "AttackMagicPotency": 444,
+    "HealingMagicPotency": 448,
+    "FireResistance": 460,
+    "IceResistance": 464,
+    "WindResistance": 468,
+    "EarthResistance": 472,
+    "LightningResistance": 476,
+    "WaterResistance": 480,
+    "SlashingResistance": 0,
+    "PiercingResistance": 0,
+    "BluntResistance": 0,
+    "Craftmanship": 0,
+    "Control": 0,
+    "Gathering": 600,
+    "Perception": 604
   },
   "RecastEntity": {
     "Category": 0,
@@ -216,5 +204,20 @@
     "RemainingCost": 28,
     "Amount": 32,
     "InRange": 36
+  },
+  "StatusEntry": {
+    "StatusID": 0,
+    "Stacks": 2,
+    "Duration": 4,
+    "CasterID": 8
+  },
+  "TargetInfo": {
+    "MouseOver": 58,
+    "Focus": 160,
+    "Previous": 136,
+    "Current": 0,
+    "CurrentID": 192,
+    "Size": 9200,
+    "SourceSize": 192
   }
 }
